@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border: 1px solid;
+}
+.title,
+.desc {
+  border: 1px solid;
+}
+.active {
+  background: #0000ff;
+}
+
+.hide {
+  display: none;
+}
